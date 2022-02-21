@@ -1,0 +1,336 @@
+#etusivu-bg {
+    min-height: 100vh;
+    padding: 0px;
+    
+}
+#footteri {
+    min-height: 20vh;
+    padding: 0;
+    min-width: 100%;
+    padding: 0;
+}
+
+#footteri h5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#footteri svg {
+    margin-left: 7px;
+    margin-right: 7px;
+    color: white;
+
+}
+#mid-container {
+    min-height: 100vh;
+    
+       
+}
+
+#text-container {
+background-color: rgba(0,0,0,0.5);
+margin-bottom: 10vh;
+position: relative;
+
+
+
+
+}
+
+#navbaari {
+    min-height: 70px;
+    background-color: rgba(20, 20, 20, 0.7);
+    min-width: 100%;
+    position: fixed;
+    z-index: 2;
+    
+    
+}
+
+
+
+#etusivu-container {
+    padding: 0px;
+    background-repeat: repeat-y;
+    
+    min-height: 100vh;
+    background-attachment: fixed;
+    /*background-image: url(images/wall-koko.jpg);*/
+    
+    
+}
+
+#navmenu * {
+    color:white;
+    
+}
+
+#palvelut-container {
+    /*background-image: url("Images/brushes.jpg");*/
+    background-repeat:repeat-y;
+    background-attachment: fixed;
+    
+    padding: 0;
+    min-height: 100vh;
+    
+
+}
+
+#palvelut-heading-container {
+    min-height: 15vh;
+    background: rgb(0,0,29);
+    background: radial-gradient(circle, rgba(0,0,29,0.96) 0%, rgba(0,0,0,0.95) 28%, rgba(0,0,0,0.950) 56%, rgba(0,0,0,0.92) 86%, rgba(1,38,46,0.66) 100%, rgba(0,0,0,0.66) 100%);
+    color: white;
+    
+}
+
+#palvelut-text-container {
+    /*background-color: rgba(247, 240, 230,0.95);*/
+    /*background-color: rgba(186, 140, 99, 0.95);*/
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    min-height: 85vh;
+}
+
+
+
+.card{
+    cursor: pointer;
+}
+
+
+
+#color-testing-container {
+    padding: 0;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    /*background-image: url(images/wall-koko.jpg);*/
+    
+}
+
+#color-testing-heading-container {
+    min-height: 15vh;
+    background: rgb(0,0,29);
+    background: radial-gradient(circle, rgba(0,0,29,0.96) 0%, rgba(0,0,0,0.95) 28%, rgba(0,0,0,0.950) 56%, rgba(0,0,0,0.92) 86%, rgba(1,38,46,0.66) 100%, rgba(0,0,0,0.66) 100%);
+    color: white;
+}
+
+#color-infotext {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#color-testing-content {
+    /*background-color: rgba(186, 140, 99, 0.95);*/
+    background-color: rgb(218, 218, 218);
+    min-height: 85vh;
+    width: 100%;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #color-test-left-container {
+        padding: 0 5em 0 5em;
+    }   
+}
+
+
+#color-test-left {
+    max-width: 100%;
+    margin-top: 1vh;
+    border: solid black 1px;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #color-test-right-container {
+        padding: 0 5em 0 5em;
+    } 
+}
+
+#color-test-right{
+    max-width: 100%;
+    margin-top: 1vh;
+    border: solid black 1px;
+    
+}
+
+
+/*!!!!!!!!!!!!VÄRIPALETIT!!!!!!!!!*/
+
+
+.color-pick {
+    width: 4em;
+    height: 2em;
+    border: white solid 2px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#clear-btn1, #clear-btn2 {
+    color: black;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+    
+    
+
+}
+
+#color-picker1, #color-picker17 {
+    background-color: #DD4132;
+    
+}
+
+#color-picker2, #color-picker18 {
+    background-color: #9E1030;
+    
+}
+
+#color-picker3, #color-picker19 {
+    background-color: #FE840E; 
+}
+
+#color-picker4, #color-picker20 {
+    background-color: #FF6F61; 
+}
+
+#color-picker5, #color-picker21 {
+    background-color: #C62168;
+}
+
+#color-picker6, #color-picker22 {
+    background-color: #8D9440; 
+}
+
+#color-picker7, #color-picker23 {
+    background-color: #FFD662; 
+}
+
+#color-picker8, #color-picker24 {
+    background-color: #00539C; 
+}
+
+#color-picker9, #color-picker25 {
+    background-color: #755139; 
+}
+
+#color-picker10, #color-picker26 {
+    background-color: #D69C2F; 
+}
+
+#color-picker11, #color-picker27 {
+    background-color: #616247; 
+}
+
+#color-picker12, #color-picker28 {
+    background-color: #E8B5CE; 
+}
+
+#color-picker13, #color-picker29 {
+    background-color: #D2C29D; 
+}
+
+#color-picker14, #color-picker30 {
+    background-color: #343148; 
+}
+
+#color-picker15, #color-picker31 {
+    background-color: #F0EAD6; 
+}
+
+#color-picker16, #color-picker32 {
+    background-color: #615550; 
+}
+
+/*GALLERIA*/
+
+#gallery-container {
+    padding: 0;
+    min-height: 100vh;
+    /*background-image: url(images/brushesetc.jpg);*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#gallery-heading-container {
+    min-height: 15vh;
+    background: rgb(0,0,29);
+    background: radial-gradient(circle, rgba(0,0,29,0.96) 0%, rgba(0,0,0,0.95) 28%, rgba(0,0,0,0.950) 56%, rgba(0,0,0,0.92) 86%, rgba(1,38,46,0.66) 100%, rgba(0,0,0,0.66) 100%);
+    color: white;
+}
+
+#gallery-content-container {
+    min-height: 85vh;
+    background-color: rgb(218, 218, 218);
+    width: 85%;
+    
+}
+
+.gallery-img {
+    max-width: 100%;
+    padding: 5px;
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 0 0 10px black;
+    cursor:pointer;
+}
+
+.modal-img {
+    max-width: 100%;
+}
+
+
+
+li {
+    cursor: pointer;
+}
+
+/*YHTEYSTIEDOT*/
+
+#yhteystiedot-container {
+    padding: 0;
+    min-height: 100vh;
+    /*background-image: url(/Images/brushes.jpg);*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#yhteystiedot-heading-container {
+    min-height: 15vh;
+    background: rgb(0,0,29);
+    background: radial-gradient(circle, rgba(0,0,29,0.96) 0%, rgba(0,0,0,0.95) 28%, rgba(0,0,0,0.950) 56%, rgba(0,0,0,0.92) 86%, rgba(1,38,46,0.66) 100%, rgba(0,0,0,0.66) 100%);
+    color: white;
+    
+}
+
+#yhteystiedot-content-container {
+    background-color: rgb(218, 218, 218);
+    min-height: 85vh;
+    width: 100%;
+}
+
+/*#yhteystiedot-content-sisennys {
+    background-color: white;
+}*/
+
+#yhteystiedot-row {
+    background-color: white;
+    width: 100%;
+    
+}
+
+#yhteystiedot-row p {
+    margin-bottom: 0px;
+
+}
+
+
+
